@@ -1,0 +1,85 @@
+.carousel {
+  position: relative;
+  max-width: 1000px;
+  margin: 20px auto;
+  overflow: hidden;
+  height: 400px; /* Altura fija */
+}
+
+.carousel-inner {
+  display: flex;
+  transition: transform 0.5s ease;
+  height: 100%;
+}
+
+.carousel-item {
+  min-width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  background-color: #ddd;
+  transition: all 0.5s ease;
+}
+
+.carousel-item {
+  transform: translateX(100%);
+}
+
+.carousel-item.active {
+  transform: translateX(0);
+}
+
+.carousel-item.next {
+  transform: translateX(100%);
+}
+
+.carousel-item.prev {
+  transform: translateX(-100%);
+}
+
+/* Mantenemos el resto del CSS igual */
+.carousel-control {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  z-index: 100;
+}
+
+.carousel-control.prev {
+  left: 10px;
+}
+
+.carousel-control.next {
+  right: 10px;
+}
+
+.indicators {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+  z-index: 100;
+}
+
+.indicator {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.indicator.active {
+  background-color: white;
+}
