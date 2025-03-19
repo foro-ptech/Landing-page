@@ -1,0 +1,16 @@
+.main-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 100%;
+  width: 100%;
+  background-color: var(--lightbg);
+}
+
+.phrase {
+  margin-bottom: 20px;
+  color: var(--font);
+  font-family: "Bree Serif", serif;
+  font-size: 3em;
+}

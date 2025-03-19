@@ -1,15 +1,18 @@
 .carousel {
   position: relative;
   max-width: 1000px;
-  margin: 20px auto;
+  margin: auto;
   overflow: hidden;
-  height: 400px; /* Altura fija */
+  height: 600px;
+  width: 1000px;
+  background-color: black;
+  border-radius: 16px;
 }
 
 .carousel-inner {
   display: flex;
-  transition: transform 0.5s ease;
   height: 100%;
+  transition: transform 0.5s ease;
 }
 
 .carousel-item {
@@ -19,27 +22,9 @@
   align-items: center;
   justify-content: center;
   font-size: 2rem;
-  background-color: #ddd;
-  transition: all 0.5s ease;
 }
 
-.carousel-item {
-  transform: translateX(100%);
-}
-
-.carousel-item.active {
-  transform: translateX(0);
-}
-
-.carousel-item.next {
-  transform: translateX(100%);
-}
-
-.carousel-item.prev {
-  transform: translateX(-100%);
-}
-
-/* Mantenemos el resto del CSS igual */
+/* Mantener el resto del CSS igual */
 .carousel-control {
   position: absolute;
   top: 50%;

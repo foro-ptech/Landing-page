@@ -1,0 +1,38 @@
+.subtitle {
+  padding-top: 5vh;
+  margin-bottom: 15vh;
+  text-align: center;
+  color: white;
+  font-size: 3em;
+  font-family: "Bree Serif", serif;
+  font-weight: 400;
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.card {
+  background-color: var(--lightfg);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  width: 200px;
+  height: 300px;
+  border-radius: 16px;
+}
+
+.card h3 {
+  color: var(--lightgrey);
+  font-weight: normal;
+  margin: 0 10px;
+}
+
+.card p {
+  color: var(--lightgrey);
+  margin: 0 10px;
+  text-align: center;
+}
