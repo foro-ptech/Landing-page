@@ -3,7 +3,9 @@
   color: white;
   text-align: left;
   padding: 1rem;
-  margin-top: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .contact-h4 {
@@ -23,4 +25,15 @@
 
 .social-div {
   margin-bottom: 20px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.icon {
+  max-width: 50px;
+  color: white;
+  margin: 0 10px;
 }
