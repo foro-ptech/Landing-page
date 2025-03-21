@@ -1,0 +1,40 @@
+.bar {
+  background-color: var(--fg);
+  width: 30%;
+  border-radius: 16px;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+}
+
+.bar p {
+  color: var(--lightgrey);
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.left {
+  position: absolute;
+  left: 5rem;
+}
+
+.right {
+  position: absolute;
+  right: 5rem;
+}
+
+.img-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 70vh;
+  width: 100%;
+}
+
+.img-l {
+  margin-bottom: 2.5rem;
+}
+
+.img-r {
+  margin-top: 2.5rem;
+}

@@ -36,3 +36,13 @@
   margin: 0 10px;
   text-align: center;
 }
+
+@media only screen and (max-width: 600px) {
+  .card-container {
+    flex-direction: column;
+  }
+
+  .card {
+    margin-bottom: 50px;
+  }
+}

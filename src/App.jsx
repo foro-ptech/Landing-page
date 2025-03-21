@@ -26,7 +26,7 @@ function App() {
           <Elements />
         </section>
 
-        <section>
+        <section className='images-section'>
           <Images />
         </section>
       </main>

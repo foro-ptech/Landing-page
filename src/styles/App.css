@@ -18,7 +18,7 @@
 }
 
 .carousel-section {
-  height: 80vh;
+  height: 90vh;
   background-color: var(--bg);
   display: flex;
   align-items: center;
@@ -28,4 +28,16 @@
 .elements-section {
   height: 80vh;
   background-color: var(--bg);
+}
+
+.images-section {
+  height: 80vh;
+  padding-top: 7vh;
+  background-color: var(--lightbg);
+}
+
+@media only screen and (max-width: 600px) {
+  .elements-section {
+    height: 180vh;
+  }
 }
