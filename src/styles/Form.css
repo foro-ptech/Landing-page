@@ -1,0 +1,57 @@
+.informacion {
+    color: var(--font);
+    margin: 0 5rem;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.form {
+    background-color: var(--lightfg);
+    border-radius: 16px;
+    height: 40vh;
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.separator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form label {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.form button {
+    border: none;
+    background-color: var(--fg);
+    border: solid 2px var(--fg);
+    color: white;
+    border-radius: 8px;
+    width: 5rem;
+    height: 2rem;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.form button:hover {
+    background-color: var(--lightfg);
+}
+
+.form input {
+    border: none;
+    background-color: var(--lightfg);
+    border-bottom: solid 2px var(--fg);
+    color: white;
+    outline: none;
+}
+
+.form input::selection {
+    background-color: red;
+}

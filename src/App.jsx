@@ -6,6 +6,7 @@ import Carousel from './components/Carousel';
 import Main from './components/Main';
 import Elements from './components/Elements';
 import Images from './components/Images';
+import ContactForm from './components/form';
 import './styles/App.css'
 
 function App() {
@@ -28,6 +29,10 @@ function App() {
 
         <section className='images-section'>
           <Images />
+        </section>
+
+        <section className='form-section'>
+          <ContactForm />
         </section>
       </main>
       

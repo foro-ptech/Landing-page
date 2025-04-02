@@ -40,10 +40,12 @@
 
 .carousel-control.prev {
   left: 10px;
+  border-radius: 8px;
 }
 
 .carousel-control.next {
   right: 10px;
+  border-radius: 8px;
 }
 
 .indicators {
@@ -67,4 +69,61 @@
 
 .indicator.active {
   background-color: white;
+}
+
+.slide {
+  display: flex;
+  align-items: center;
+  background-color: var(--lightbg);
+  height: 100%;
+  width: 100%;
+}
+
+.half-l {
+  width: 50%;
+  height: 100%;
+  background-color: var(--fg);
+  display: flex;
+  align-items: center;
+}
+
+.half-l p {
+  color: white;
+  text-align: center;
+  margin: 0 30px;
+}
+
+.half-r {
+  width: 60%;
+}
+
+.vista {
+  width: 105%;
+  overflow: hidden;
+}
+
+.info-img {
+  width: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.libro {
+  height: 100%;
+}
+
+.info {
+  width: 50%;
+  height: 100%;
+  background-color: var(--lightbg);
+  display: flex;
+  align-items: center;
+}
+
+.info p {
+  text-align: center;
+  margin: 0 30px;
+  color: var(--font);
 }

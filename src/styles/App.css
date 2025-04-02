@@ -32,8 +32,17 @@
 
 .images-section {
   height: 80vh;
-  padding-top: 7vh;
+  padding: 7vh 0;
   background-color: var(--lightbg);
+}
+
+.form-section {
+  height: 80vh;
+  background-color: var(--bg);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
 }
 
 @media only screen and (max-width: 600px) {

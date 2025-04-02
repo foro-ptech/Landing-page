@@ -1,12 +1,31 @@
 import React, { useState, useEffect } from 'react';
 import '../styles/Carousel.css';
+import vistaPrincipal from '/vista principal2.png'
+import post from '/post.jpg'
+import libro from '/libro.jpg'
 
 const Carousel = () => {
   const [activeIndex, setActiveIndex] = useState(0);
   const items = [
-    <div key="0" className="slide" style={{ backgroundColor: '#ff9999' }}>Slide 1</div>,
-    <div key="1" className="slide" style={{ backgroundColor: '#99ff99' }}>Slide 2</div>,
-    <div key="2" className="slide" style={{ backgroundColor: '#9999ff' }}>Slide 3</div>
+    <div key="0" className="slide">
+      <div className='half-l'>
+        <p>Crea nuevas publicaciones al instante</p>  
+      </div>
+      <div className='half-r'>
+        <img className='post' src={post} alt="Imagen no encontrada" />
+      </div>
+    </div>,
+    <div key="1" className="slide">
+      <img className='vista' src={vistaPrincipal} alt="Imagen no encontrada" />
+    </div>,
+    <div key="2" className="slide">
+      <div className='info-img'>
+        <img className='libro' src={libro} alt="Imagen no encontrada" />
+      </div>
+      <div className='info'>
+        <p>Accede a información y herramientas validadas por expertos en salud.</p>
+      </div>
+    </div>
   ];
 
   const handlePrev = () => {

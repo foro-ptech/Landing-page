@@ -3,7 +3,7 @@ import '../styles/Main.css'
 function Main() {
   return (
     <div className='main-div'>
-      <h2 className='phrase'>Frase motivadora mamalona cta</h2>
+      <h2 className='phrase'>Encuentra consuelo en una comunidad comprensiva.</h2>
     </div>
   )
 }

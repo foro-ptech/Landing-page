@@ -9,7 +9,7 @@
 
 .bar p {
   color: var(--lightgrey);
-  margin-left: 10px;
+  margin-left: 15px;
   font-weight: bold;
 }
 
@@ -29,12 +29,19 @@
   justify-content: space-evenly;
   height: 70vh;
   width: 100%;
+  margin-top: 40px;
 }
 
-.img-l {
+.img {
+  border-radius: 16px;
+}
+
+.il {
   margin-bottom: 2.5rem;
+  max-width: 550px;
 }
 
-.img-r {
+.ir {
   margin-top: 2.5rem;
+  max-width: 550px;
 }
