@@ -31,7 +31,7 @@ function App() {
           <Images />
         </section>
 
-        <section className='form-section'>
+        <section className='form-section' id='form'>
           <ContactForm />
         </section>
       </main>

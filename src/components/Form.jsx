@@ -16,7 +16,7 @@ function ContactForm() {
     <form onSubmit={handleSubmit} className='form'>
       <div className='separator'>
         <label htmlFor="email">
-        Correo electronico
+        Correo electrónico
         </label>
         <input
             id="email"

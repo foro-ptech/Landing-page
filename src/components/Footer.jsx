@@ -7,17 +7,10 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className='contact'>
-        <h4 className='contact-h4'>Contact us</h4>
-        <p className='footer-p'>Phone <br /><a href="">33 1234 5678</a></p>
-        <p className='footer-p'>Email <br /><a href="">hello@reallygreatsite.com</a></p>
+        <h4 className='contact-h4'>Contáctanos</h4>
+        <p className='footer-p'>Teléfono: <a href="">33 1171 3593</a></p>
+        <p className='footer-p'>Correo: <a href="">adriel.andrade1407@alumnos.udg.mx</a></p>
       </div>
-      <div className='social-div'>
-          <h4 className='contact-h4'>Social</h4>
-          <div>
-            <a href="facebook.com"><img src={facebook} alt="" className='icon'/></a>
-            <a href="instagram.com"><img src={insta} alt="" className='icon'/></a>
-          </div>
-        </div>
     </footer>
   );
 };
